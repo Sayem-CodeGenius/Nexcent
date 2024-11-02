@@ -1,0 +1,40 @@
+/* mobile device */
+@media (max-width:991px){
+    /* navbar edit */
+    nav{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+nav .navbar-toggler{
+    border: none;
+    font-size: 25px;
+}
+nav .navbar-toggler:focus{
+    box-shadow: none;
+}
+nav #menubar{
+    padding-top: 10px 0px;
+}
+nav #menubar li a.nav-link {
+    padding: 12px 25px;
+}
+/* banner */
+#banner h1 {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 119%;
+    color: var(--neutral-d-grey);
+}
+#banner #bannertext {
+    padding: 0px 0;
+}
+#banner .img-fluid {
+    max-width: 60%;
+    height: auto;
+}
+#banner #bannerIllustration {
+    padding: 40px 0;
+}
+
+}
+
+/* desktop device */
